@@ -16,11 +16,10 @@ def home():
 def about():
     return render_template("about.html")
 
-# @app.route("/route1")
-# @app.route("/route2")
-# @app.route("/route3")
-# def route1():
-#     return "<h1>Hello, Satyam</h1>"
+@app.route("/register")
+def register():
+    return render_template("register.html")
+
 
 
 if __name__ == "__main__":
