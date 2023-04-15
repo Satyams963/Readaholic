@@ -14,7 +14,7 @@ def home():
 
 @app.route("/about")
 def about():
-    return "<h1>About Page</h1>"
+    return render_template("about.html")
 
 # @app.route("/route1")
 # @app.route("/route2")
