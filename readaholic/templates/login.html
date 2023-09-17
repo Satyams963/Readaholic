@@ -3,7 +3,7 @@
 {% block content %}
 <!-- code here -->
 
-<div class="form-content-section mx-auto">
+<div class="container form-content-section mx-auto">
   <form method="POST" action="">
     <!-- Cross Site Request Foregery Token -->
     {{ form.hidden_tag() }}
@@ -24,7 +24,7 @@
   </form>
   <div class="border-top mt-3 pt-3">
     <small class="text-muted"
-      >Don't have an account? <a class="ml-2" href="#">sighin</a></small
+      >Don't have an account? <a class="ml-2" href="{{ url_for('register') }}" style="text-decoration: none;">sigh up</a></small
     >
   </div>
 </div>

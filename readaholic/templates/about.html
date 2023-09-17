@@ -1,0 +1,49 @@
+{% extends "layout.html" %} 
+
+{% block content %}
+<div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Introduction
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Hi! I am Satyam from Shahjahanpur, Uttar Pradesh.</strong> 
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Accadamic Background
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            I have done my schooling from Jawahar Navodaya Vidhyalaya,
+            Shahjahanpur, my B.Tech from KNIT Sultanpur, and now I have joined
+            NIT Warangal as Environmental Engineering Student for M.Tech.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Skills & Tools
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            I am a motivated Web Developer with expertise in the MERN
+            (MongoDB, Express.js, React.js, Node.js) stack. I have
+            successfully designed and developed numerous responsive and
+            interactive web applications, delivering exceptional user
+            experiences. Proficient in front-end development using HTML5,
+            CSS3, and JavaScript, I possess a deep understanding of React.js and its ecosystem, enabling me to build dynamic and scalable user interfaces. Additionally, my strong back-end development skills in Node.js and Express.js, coupled with my proficiency in MongoDB, allow me to create robust server-side applications and effectively manage databases. Furthermore, I am well-versed in Git version control and possess a solid understanding of Agile development methodologies. With my strong problem-solving abilities and dedication to clean and efficient code, I am confident in my ability to contribute to the success of any development team.
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
